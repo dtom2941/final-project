@@ -1,0 +1,57 @@
+<CoordinateSystem> { Z-Up }
+<VertexPool> CarVertexes.verts {
+   <Vertex> 0 { 0 0 0 
+   <UV> { 0 0 }
+}
+   <Vertex> 1 { 0 0 10 
+   <UV> { 0 0 }
+}
+   <Vertex> 10 { 0 20 0 
+   <UV> { 0 1 }
+}
+   <Vertex> 11 { 0 20 10 
+   <UV> { 0 1 }
+}
+   <Vertex> 100 { 10 0 0 
+   <UV> { 1 0 }
+}
+   <Vertex> 101 { 10 0 10 
+   <UV> { 1 0 }
+}
+   <Vertex> 110 { 10 20 0 
+   <UV> { 1 1 }
+}
+   <Vertex> 111 { 10 20 10 
+   <UV> { 1 1 }
+}
+}
+<Polygon> {
+    <Texture> { black.jpg }
+    <VertexRef> { 0 1 11 10 <Ref> { CarVertexes.verts } }
+    <Normal> {-1 0 0}
+}
+<Polygon> {
+    <Texture> { black.jpg }
+    <VertexRef> { 100 101 111 110 <Ref> { CarVertexes.verts } }
+    <Normal> {1 0 0}
+}
+<Polygon> {
+    <Texture> { black.jpg }
+    <VertexRef> { 0 1 101 100 <Ref> { CarVertexes.verts } }
+    <Normal> {0 -1 0}
+}
+<Polygon> {
+    <Texture> { black.jpg }
+    <VertexRef> { 10 11 111 110 <Ref> { CarVertexes.verts } }
+    <Normal> {0 1 0}
+}
+<Polygon> {
+    <Texture> { black.jpg }
+    <VertexRef> { 0 10 110 100 <Ref> { CarVertexes.verts } }
+    <Normal> {0 0 -1}
+}
+<Polygon> {
+    <Texture> { black.jpg }
+    <VertexRef> { 1 11 111 101 <Ref> { CarVertexes.verts } }
+    <Normal> {0 0 1}
+}

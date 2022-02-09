@@ -1,0 +1,14 @@
+I added some more objects to the mountainmaker.py file that I should probably change the name to just objectMaker or something along those lines
+The changes include:
+	adding car, which is just a box
+	adding collisions to the mountains
+	adding checkered pattern to mountains so that you can see terrain
+	adding rock but not implementing completely the part that would enable it to be seen on the scene, it is only a bunch of vertices now
+	making a super class that provides the underlying functionality of all of the objects
+
+I changed the main.py file so that it can both have a flying mode(which was already there)
+and a driving mode
+I also made the flying mode able to add cars to the ground(because none of the other objects are ready to be displayed)
+I also made directions appear on the screen which are selective to which state it is in
+I made the car able to move along with the terrain so that its height would vary as it went over mountain object
+I also made the camera able to go directly behind the car

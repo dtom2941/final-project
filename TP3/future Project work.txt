@@ -1,0 +1,23 @@
+Things that I need to do for term project
+:
+create a super class that will help handle all of the other object classes
+create tree objects
+create pole objects
+create rock objects
+create car object
+enable the car to be stopped by other objects that it hits
+enable the car to move around and for the user to control that movement
+enable the user to click on certain parts of the screen and place objects there
+
+
+
+
+
+How to do trees:
+   First I will need to create some lines that will curve and branch off, then I can take those lines and add some thickness to them by every certain length up the branch having 4 or more lines go off perpindicularly between two distances(so that there is branch thickness variance, but not very large) away from center of branch and have those be the actuall edges of the branches. 
+
+For doing rocks:
+	I can first do something similar to the particle deposition model except I will do it around polarly, then once I get initial heights, I can have the object find the gradients, and if they are too large it will randomly assign the height to the particles around it, until none of the gradients are too large.
+
+For the object master class:
+	

@@ -1,0 +1,4 @@
+My project is a racing game where you can develop your own map. There is a file called EggMaker.py that develops the egg files that will be used in game. Unfortunately, EggMaker.py is made for python 3.5, but panda3D appears to run python 2.7, so you actually have to run EggMaker.py before running main.py. 
+	The main.py uses panda3D which can be downloaded here: https://www.panda3d.org/download.php?platform=macosx&version=1.7.0&sdk
+	it is helpful to use the tutorial before doing the rest of the program. Create mode makes the map, with the poles being the thing that actually creates the race course, and to switch between drive and create, you press 'h' and to race when driving you press 'z'
+Instructions are also in the game. 
